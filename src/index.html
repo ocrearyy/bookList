@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page Title</title>
-</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My BookList App</title>
+    <script src="https://kit.fontawesome.com/030a66e167.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/yeti/bootstrap.min.css" integrity="sha384-mLBxp+1RMvmQmXOjBzRjqqr0dP9VHU2tb3FK6VB0fJN/AOu7/y+CAeYeWJZ4b3ii" crossorigin="anonymous"></head>
 <body>
-  <h1>Hello World</h1>
+  <div class="container mt-4">
+    <h1 class="text-center">
+      <i class="fas fa-book-open text-primary"></i> My <span class="text-primary">Book</span> List
+    </h1>
+    <form id="book-form">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" id="title">
+      </div>
+      <div class="form-group">
+        <label for="author">Author</label>
+        <input type="text" class="form-control" id="author">
+      </div>
+      <div class="form-group">
+        <label for="isbn">Isbn#</label>
+        <input type="text" class="form-control" id="isbn">
+      </div>
+      <input type="submit" value="Add Book" class="btn btn-primary btn-block">
+    
+    </form>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Isbn#</th>
+          <th></th>
+
+        </tr>
+      </thead>
+      <tbody id="book-list">
+        
+      </tbody>
+    </table>  
+  </div>
 
 </body>
 </html>
