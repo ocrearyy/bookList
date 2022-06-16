@@ -44,5 +44,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Family, Friends, Mentors and Mentees for amusing support and guidance.
+- Family, Friends, Mentors and Mentees for amazing support and guidance.
 
