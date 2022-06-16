@@ -1,53 +1,42 @@
-# Project Name
+# Portfolio
 
-> This repository contains Webpack Template.
+> This project is a Full App built in JavaScript without a library or JS framework, using classes, local storage and more. 
 
-
-## Get Started
-Click on the green button **Use the Template** and Start working. Happy Coding !!!
-![image](https://user-images.githubusercontent.com/61361037/161849727-b74bc9e4-768d-4aab-9cb5-3bd6956d4b0c.png)
+# Screenshot's 
+Coming Soon
 
 
-- [Live Site](http://GITHUB_ID.github.io/...)
-- [Live Demo Link](https://www.loom.com/share/...)
+## Built With
 
-## Get Started
-To get a local copy up and running follow these simple example steps.Switch/ Navigate to the required branch. Clone/ Download the code. Customize for your need. Start working !!!
+- HTML
+- JavaScript
 
-### Prerequisites
+## Live Demo
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+- [Demo](https://frabjous-pavlova-44a318.netlify.app/)
 
 
+## Getting Started
 
-## Authors
+To get a local copy up and running follow these simple example steps.
 
-👤 **Author1**
+1. Git clone git@github.com:oshanedesign/bookList.git
 
-- GitHub: [@githubhandle](https://github.com/GITHUB_ID)
-- Twitter: [@twitterhandle](https://twitter.com/GITHUB_ID)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/GITHUB_ID)
+2. Cd bookList
 
-👤 **Author2**
+3. Run npm install to get packages 
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+4. Run npm start to get project running locally 
 
+#Testing
+- npm run test
 
-## 🤝 Contributing
+## Author
 
-Contributions, issues, and feature requests are welcome!
+👤 **Oshane C**
 
-Feel free to check the [issues page](../../issues/).
+- GitHub: [@githubhandle](https://github.com/oshanedesign) 
+- Linkedin: [LinkedIn](https://www.linkedin.com/in/ocreary/)
 
 ## Show your support
 
@@ -55,10 +44,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Family, Friends, Mentors and Mentees for amazing support and guidance.
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.

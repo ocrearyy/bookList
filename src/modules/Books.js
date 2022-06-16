@@ -66,11 +66,20 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
     
     //prevent default on submit 
     e.preventDefault(); 
-
+    
+    // Get form Values
     const title = document.querySelector('#title').value;
     const author = document.querySelector('#author').value;
     const isbn = document.querySelector('#isbn').value;
 
+     // Validate 
+     if(title === '' || author === '' || isbn === '') {
+        swal({
+            title: 'Hoooolddd Up',
+            text: 'Please fill in all the fields before you can proceed', 
+            icon: 'error'
+        });
+     } else {
 
     // Instatiate a new Book
 
@@ -81,6 +90,7 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
     // clear fields
 
     UI.clearFields();
+     }
 })
 
 
