@@ -3,7 +3,8 @@
 > This project is a Full App built in JavaScript without a library or JS framework, using classes, local storage and more. 
 
 # Screenshot's 
-Coming Soon
+
+![screenshot (2)](https://user-images.githubusercontent.com/40554384/184493340-c5a41193-5db0-4a5c-a34b-88598d517f09.png)
 
 
 ## Built With
